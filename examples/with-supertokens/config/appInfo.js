@@ -5,7 +5,7 @@ const apiBasePath = '/api/auth/'
 export const websiteDomain =
   process.env.APP_URL ||
   process.env.NEXT_PUBLIC_APP_URL ||
-      https://jolly-sand-01c59f310.1.azurestaticapps.net
+      `https://jolly-sand-01c59f310.1.azurestaticapps.net`
 //   `http://localhost:${port}`
 
 export const appInfo = {
