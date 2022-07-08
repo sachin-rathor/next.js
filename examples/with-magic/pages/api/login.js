@@ -4,6 +4,7 @@ import { setLoginSession } from '../../lib/auth'
 export default async function login(req, res) {
   try {
     const didToken = req.headers.authorization.slice(7)
+    console.log(req.headers.authorization)
     const metadata = await magic.users.getMetadataByToken(didToken)
     const session = { ...metadata }
 
