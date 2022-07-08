@@ -1,5 +1,6 @@
 name: Magic Azure Static Web Apps CI/CD
 
+
 on:
   push:
     branches:
