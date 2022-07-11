@@ -5,8 +5,8 @@ const apiBasePath = '/api/auth/'
 export const websiteDomain =
   process.env.APP_URL ||
   process.env.NEXT_PUBLIC_APP_URL ||
-//     `http://localhost:${port}` ||
-      `https://jolly-sand-01c59f310.1.azurestaticapps.net`
+    `http://localhost:${port}`
+//       `https://jolly-sand-01c59f310.1.azurestaticapps.net`
 
 export const appInfo = {
   appName: 'SuperTokens Demo App',
