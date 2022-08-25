@@ -10,7 +10,7 @@ export default function Index({ time }) {
 export async function getServerSideProps({ req, res }) {
   res.setHeader(
     'Cache-Control',
-    'public, s-maxage=-1, stale-while-revalidate=59'
+    'public, s-maxage=86000, stale-while-revalidate=59'
   )
 
   return {
