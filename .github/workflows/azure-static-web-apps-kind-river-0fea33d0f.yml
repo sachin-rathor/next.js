@@ -19,6 +19,8 @@ jobs:
         with:
           submodules: true
       - name: Build And Deploy
+        env:
+          ENABLE_PREVIEW_FEATURES: true
         id: builddeploy
         uses: sachin-rathor/staticstiesactionoryx@master
         with:
